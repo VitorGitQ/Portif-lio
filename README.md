@@ -12,7 +12,7 @@ Esse projeto se refere a criação do meu portifólio pessoal
 
   
 </p>
-<img src="asset/img/capa-portifolio.png">  
+<img src="asset/img/capa_portifolio.png">  
 
 
 ## PROJETO
