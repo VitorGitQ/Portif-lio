@@ -92,7 +92,7 @@ section {
     display: flex;
     position: relative;
     align-items: center;
-    height: 50vw;
+    height: 100vh;
     padding: 0 0 0 5vw;
     gap: 2vw;
 }
@@ -102,7 +102,7 @@ section {
     width: 75%;
     position: absolute;
     top: -90px;
-    left: 0px;
+    left: -80px;
 }
 
 .home #linha-2 {
@@ -193,11 +193,54 @@ section {
     transition: 1s;
 }
 
+.sobre-mim {
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    padding: 0 7vw 10vw 5vw;
+    gap: 2vw;
+}
+
+.sobre-mim .linha {
+    width: 2vw;
+    height: 80%;
+    background: var(--details-color);
+    border-radius: 10vw;
+}
+
+.sobre-mim .conteiner-descricao {
+    display: flex;
+    flex-direction: column;
+    height:60%;
+    gap: 15%;
+    
+}
+
+.sobre-mim .conteiner-descricao h2 {
+    font-size: 2.5vw;
+}
+
+.sobre-mim .conteiner-descricao p {
+    font-size: 1.5vw;
+    width: 80%;
+}
+
 .projetos {
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 3vw;
+    position: relative;
+
+}
+
+.projetos::before {
+    content: url(asset/svg/linha-bottom.svg);
+    position: absolute;
+    left: -10vw;
+    bottom: -30vw;
+    z-index: -1;
+    transform: rotate(180deg);
 
 }
 
