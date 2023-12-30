@@ -134,7 +134,7 @@ section {
     position: absolute;
     left: -30px;
     z-index: -1;
-    animation: up 2s;
+    animation: up 2.5s infinite alternate;
 
 }
 .home .conteiner-img .icon-js {
@@ -144,6 +144,7 @@ section {
     right: -20px;
     top:0px;
     z-index: 0;
+    animation: up 2.5s infinite alternate;
 }
 
 .home .conteiner-img::after {
@@ -154,6 +155,7 @@ section {
     right: -20px;
     bottom: 0px;
     z-index: 0;
+    animation: up 2s infinite alternate;
 }
 
 .home .conteiner-informacoes {
@@ -262,6 +264,7 @@ section {
 
 .projetos .conteiner-projetos {
     display: flex;
+    position: relative;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content:center ;
@@ -859,3 +862,11 @@ section {
 }
 
 
+@keyframes up {
+    from {
+      transform: translateY(0);
+    }
+    to {
+      transform: translateY(20px);
+    }
+  }
