@@ -200,7 +200,7 @@ section {
 .sobre-mim {
     display: flex;
     align-items: center;
-    height: 100vh;
+    height: 90vh;
     padding: 0 7vw 10vw 5vw;
     gap: 2vw;
 }
@@ -282,6 +282,18 @@ section {
     background: var(--details-color);
 
 }
+
+/*
+.projetos .conteiner-projetos .conteiner-conteudo:hover {
+    height: 85vh;
+    width: 80vw;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+
+    transform: translate(-50%, -50%);
+}
+*/
 
 .projetos .conteiner-projetos .conteiner-conteudo .capa {
     width: 99% ;
@@ -505,12 +517,16 @@ section {
         width: 3vw;
     }
 
+    .sobre-mim .conteiner-descricao {
+        gap: 2vw;
+    }
+
     .sobre-mim .conteiner-descricao h2 {
-        font-size: 3.2vw;
+        font-size: 3vw;
     }
     
     .sobre-mim .conteiner-descricao p {
-        font-size: 2.5vw;
+        font-size: 2.2vw;
         width: 80%;
     }
 
@@ -582,12 +598,16 @@ section {
         width: 5vw;
     }
 
+    .sobre-mim .conteiner-descricao {
+        gap: 3vw;
+    }
+
     .sobre-mim .conteiner-descricao h2 {
-        font-size: 4.5vw;
+        font-size: 3.5vw;
     }
     
     .sobre-mim .conteiner-descricao p {
-        font-size: 3vw;
+        font-size: 2.5vw;
         width: 80%;
     }
 
@@ -758,12 +778,12 @@ section {
     }
 
     .sobre-mim {
-        height: auto;
+        height: 100vh;
     }
 
     .sobre-mim .linha {
         width: 6vw;
-        height: 90vw;
+        height: 80%;
         background: var(--details-color);
         border-radius: 10vw;
     }
@@ -771,7 +791,7 @@ section {
     .sobre-mim .conteiner-descricao {
         display: flex;
         flex-direction: column;
-        height:60%;
+        height:75%;
         gap: 5vw;
         
     }
