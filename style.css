@@ -183,13 +183,48 @@ section {
 .home .conteiner-informacoes .conteiner-contatos a {
     display: flex;
     align-items: center;
+    position: relative;
     justify-content: center;
     width: 40px;
     height: 40px;
     background-color: var(--details-color);
     border-radius: 10px;
     transition: 1s;
+    text-decoration: none;
+    color: var(--font-color);
      
+}
+
+.home .conteiner-informacoes .conteiner-contatos a:hover::after {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 12px;
+    padding: .3vw .5vw .3vw .5vw;
+    color: var(--font-color);
+    background-color: var(--color-general);
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 100%;
+
+}
+
+.home .conteiner-informacoes .conteiner-contatos a:nth-child(1):hover::after {
+    content: "GitHub";
+}
+
+.home .conteiner-informacoes .conteiner-contatos a:nth-child(2):hover::after {
+    content: "LinkIdin";
+}
+
+.home .conteiner-informacoes .conteiner-contatos a:nth-child(3):hover::after {
+    content: "Email";
+}
+
+.home .conteiner-informacoes .conteiner-contatos a:nth-child(4):hover::after {
+    content: "Currículo";
 }
 
 .home .conteiner-informacoes .conteiner-contatos a:hover {
