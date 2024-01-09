@@ -431,7 +431,7 @@ section {
     display: flex;
     flex-direction: column;
     background-color: var(--details-color);
-    height: 10vw;
+    height: auto;
     border-radius:50px 50px 0 0;
     align-items: center;
     padding-top: 3vw;
@@ -488,6 +488,18 @@ section {
     width: 60%;
 }
 
+.direitos {
+    display: flex;
+    justify-content: center;
+    width: 30%;
+    height: auto;
+    padding: 5px 0 7px 0;
+
+    background-color: var(--background-color);
+    border-radius: 10px 10px 0 0;
+    font-size: 12px;
+    margin-top: 1vw;
+}
 
 
 
@@ -566,6 +578,11 @@ section {
     .contatos a{
         width: 4vw;
         height: 4vw;
+    }
+
+    .direitos {
+        width: 45%;
+        height: auto;
     }
 }
 
@@ -681,6 +698,11 @@ section {
     
     .contatos a img{
         width: 70%;
+    }
+
+    .direitos {
+        width: 60%;
+        height: auto;
     }
 }
 
@@ -869,7 +891,7 @@ section {
 
     .contatos {
         height: auto;
-        padding: 20px 0 20px 0;
+        padding: 20px 0 0 0;
         gap: 4vw;
     }
 
@@ -884,6 +906,10 @@ section {
         border-radius: 10px;
     }
     
+    .direitos {
+        width: 80%;
+        height: auto;
+    }
 }
 
 
