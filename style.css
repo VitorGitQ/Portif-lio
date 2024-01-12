@@ -359,12 +359,13 @@ section {
 */
 
 .projetos .conteiner-projetos .conteiner-conteudo .capa {
-    width: 99% ;
-    height: 85%;
+    width: 100% ;
+    height: 100%;
     object-fit: cover;
     border-radius: 10px;
-
+    transition: 1s;
 }
+
 
 .projetos .conteiner-projetos .conteiner-conteudo .dados {
     display: flex;
@@ -388,6 +389,7 @@ section {
 .projetos .conteiner-projetos .conteiner-conteudo .c-redirecionamento img{
     width: 1.5vw;
 }
+
 
 .projetos .conteiner-projetos .conteiner-conteudo .c-redirecionamento a{
     display: flex;
