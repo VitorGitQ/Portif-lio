@@ -492,6 +492,10 @@ section {
     content: 'JavaScript';
 }
 
+.tecnologias .conteiner-tecnologias .conteiner-divisao:nth-child(3) div:nth-child(1):hover::before {
+    content: 'NodeJS';
+}
+
 .contatos {
     display: flex;
     flex-direction: column;
@@ -923,8 +927,9 @@ section {
     }
 
     .tecnologias {
-        height: 80vw;
+        height: auto;
         padding-top: 15vw;
+        padding-bottom: 10vw;
         gap: 10vw;
     
     }
