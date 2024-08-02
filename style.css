@@ -434,6 +434,7 @@ section {
     content: 'Em Desenvolvimento';
 }
 
+
 .tecnologias {
     display: flex;
     flex-direction: column;
@@ -709,7 +710,7 @@ section {
 
     .home {
         flex-direction: column;
-        padding: 20vh 0 0 0;
+        padding: 18vh 0 10vh 0;
         gap: 2vw;
     }
 
@@ -731,7 +732,7 @@ section {
     }
     
     .sobre-mim .conteiner-descricao p {
-        font-size: 150%;
+        font-size: 130%;
         width: 80%;
     }
 
@@ -886,6 +887,7 @@ section {
 
     .home  {
         height: 70vh;
+        
     }
     
     .home .conteiner-img img {
@@ -945,7 +947,7 @@ section {
     }
     
     .sobre-mim .conteiner-descricao p {
-        font-size: 140%;
+        font-size: 110%;
         width: 80%;
     }
 
