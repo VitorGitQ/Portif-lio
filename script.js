@@ -97,3 +97,38 @@ const menu = new Menu (
 )
 
 menu.init();
+
+
+
+
+const getOut1 = document.getElementById('getout1');
+const getOut2 = document.getElementById('getout2');
+const fade = document.getElementById('fade');
+const modalLinkme = document.getElementById('modal-linkme');
+const linkMe = document.getElementById('linkme');
+const modalFanpage = document.getElementById('modal-fanpage');
+const fanPage = document.getElementById('fanpage');
+
+
+
+    linkMe.onclick = () => {
+        modalLinkme.classList.toggle("hide");
+        fade.classList.toggle('hide');
+    };
+    getOut1.onclick = () => {
+        modalLinkme.classList.toggle("hide");
+        fade.classList.toggle('hide');
+    };
+    
+
+
+
+
+    fanPage.onclick = () => {
+        modalFanpage.classList.toggle("hide");
+        fade.classList.toggle('hide');
+    };
+    getOut2.onclick = () => {
+        modalFanpage.classList.toggle("hide");
+        fade.classList.toggle('hide');
+    };

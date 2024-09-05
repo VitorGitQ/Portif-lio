@@ -323,6 +323,7 @@ section {
 }
 .projetos img{
     width: 100px;
+    cursor: pointer;
 }
 
 .projetos .conteiner-projetos {
@@ -430,10 +431,70 @@ section {
 
 }
 
-.projetos .conteiner-projetos .conteiner-conteudo:nth-child(6) .c-redirecionamento a:nth-child(2):hover::before {
+/*.projetos .conteiner-projetos .conteiner-conteudo:nth-child(6) .c-redirecionamento a:nth-child(2):hover::before {
     content: 'Em Desenvolvimento';
+}*/
+
+.modal {
+    display: flex;
+    background-color: var(--details-color);
+    z-index: 3;
+    position: fixed;
+    width: 80%;
+    height: 600px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 20px;
+
+    padding: 20px;
+} 
+
+.modal .description {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    padding: 20px 0 10px 10px;
+}
+.modal  span {
+    display: flex;
+    position: absolute;
+    right: 25px;
+    cursor: pointer;
 }
 
+.modal .description h3 {
+    font-size: 3vw;
+}
+.modal .description h4 {
+    font-size: 2vw;
+}
+
+.tec-model {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.tec-model img {
+    width: 16%;
+}
+
+.fade {
+    display: flex;
+    position: fixed;
+    background-color: rgba(36, 36, 36, 0.812);
+    z-index: 2;
+    top: 0%;
+    width: 100vw;
+    height: 100vh;
+
+}
+.hide {
+    opacity: 0;
+    pointer-events: none;
+    
+}
 
 .tecnologias {
     display: flex;
