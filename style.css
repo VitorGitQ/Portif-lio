@@ -4,14 +4,15 @@
 
 body{
     display: flex;
+    flex-direction: column;
     height: 100vh;
     justify-content: center;
     align-items: center;
     text-align: center;
+    gap: 20vh;
 
     border: 0;
     margin: 0;
-    padding: 0;
 
     background-color: rgb(44, 44, 44);
     color: aliceblue;
@@ -25,15 +26,98 @@ body{
     align-items: center;
 }
 
+.p {
+    padding-top: 200px;
+}
+
 
 .c-loader {
     animation: is-rotating 1s infinite;
     border: 6px solid #e5e5e5;
-    border-radius: 50%;
-    border-top-color: #51d4db;
+    border-radius: 100%;
+    border-top-color: #454545;
     height: 50px;
     width: 50px;
   }
+
+span {
+    display: flex;
+    width: 65vw;
+    height: 1px;
+    margin-bottom: 50px;
+
+    background-color: aliceblue;
+    
+}
+
+.conteiner-contatos  {
+    display: flex;
+    gap: 10px;
+}
+
+.conteiner-contatos a {
+    display: flex;
+    align-items: center;
+    position: relative;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    background-color: var(--details-color);
+    border-radius: 10px;
+    transition: 2s;
+    text-decoration: none;
+    color: var(--font-color);
+    
+    
+     
+}
+
+img {
+    width: 40px;
+}
+
+
+.conteiner-contatos a:hover::after {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 12px;
+    z-index: -1;
+    width: 100%;
+
+    border-radius: 0 0 6px 6px ;
+    padding: 10px 1.5px 3px 1.5px;
+    color: var(--details-color);
+    background-color: var(--font-color);
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 80%;
+    opacity: 9;
+
+}
+
+.conteiner-contatos a:nth-child(1):hover::after {
+    content: "GitHub";
+}
+
+.conteiner-contatos a:nth-child(2):hover::after {
+    content: "LinkIdin";
+}
+
+.conteiner-contatos a:nth-child(3):hover::after {
+    content: "Email";
+}
+
+.conteiner-contatos a:nth-child(4):hover::after {
+    content: "Curriculo";
+}
+
+.conteiner-contatos a:hover {
+    box-shadow: 0px 0px 0px 1px var(--font-color);
+    transition: 1s;
+}
   
   @keyframes is-rotating {
     to {
