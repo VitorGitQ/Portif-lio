@@ -13,7 +13,7 @@
 
 
 ## PROJETO
-O objetivo desse projeto foi desenvolver um Portifólio pessoal, que tem como intuito me apresentar como profissional na área de desenvolvimento. Em sua construção utilizei dos conceitos base como layout responsivo, interatividade e dinamismos, e para trabalhar com esses conceitos utilizei tecnologias como o JavaScript, HTML, CSS e Figma [ACESSE AQUI](https://htppsvitor.github.io/Portif-lio/).
+O objetivo desse projeto foi desenvolver um Portifólio pessoal, que tem como intuito me apresentar como profissional na área de desenvolvimento. Em sua construção utilizei dos conceitos base como layout responsivo, interatividade e dinamismos, e para trabalhar com esses conceitos utilizei tecnologias como o JavaScript, HTML, CSS e Figma [ACESSE AQUI](https://vitorgitq.github.io/Portif-lio/).
 
 ## LAYOUT
 
